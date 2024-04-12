@@ -1,4 +1,70 @@
 body {
-  background-color: #ebd5d4;
-  color: #e68080;
+  background-image: url("images/catWindow.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #565340;
+}
+.container {
+  background-color: rgb(49, 72, 57, 0.5);
+  text-align: center;
+  border-radius: 10px;
+  margin: 120px auto;
+  max-width: 600px;
+}
+h1 {
+  color: #1b201a;
+  text-align: center;
+}
+form {
+  display: flex;
+  margin-bottom: 30px;
+}
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  background-color: rgb(86, 117, 91, 0.5);
+  margin: auto;
+  max-width: 380px;
+  border-radius: 10px;
+}
+a {
+  color: #92d7c1;
+}
+a:hover {
+  color: #b49dac;
+  transition: ease-in-out 200ms;
+}
+.subject-search {
+  background-color: #a6a083;
+  color: #4a755a;
+  border: none;
+  width: 80%;
+  border-radius: 10px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  padding: 8px;
+  font-size: 14px;
+  line-height: 13px;
+  margin-left: 24px;
+}
+.search-box {
+  background-color: #53503f;
+  color: #a49d7b;
+  border: none;
+  padding: 8px;
+  font-size: 14px;
+  line-height: 13px;
+
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+}
+.quote {
+  color: #e0eac4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  background-color: rgb(53, 69, 58, 0.5);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
