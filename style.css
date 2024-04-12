@@ -37,7 +37,7 @@ a:hover {
 }
 .subject-search {
   background-color: #a6a083;
-  color: #4a755a;
+  color: #395c45;
   border: none;
   width: 80%;
   border-radius: 10px;
@@ -47,6 +47,9 @@ a:hover {
   font-size: 14px;
   line-height: 13px;
   margin-left: 24px;
+}
+.subject-search::placeholder {
+  color: #464b44;
 }
 .search-box {
   background-color: #53503f;
