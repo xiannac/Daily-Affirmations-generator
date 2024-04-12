@@ -7,22 +7,25 @@
     <title>QuotesForYou</title>
   </head>
   <body>
-    <header>
-      <h1>Daily Affirmations Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Type subject for affirmation"
-          required
-          autocomplete="off"
-          autofocus
-        />
-        <input type="submit" />
-      </form>
-      <div>Today will be a productive day :]</div>
-    </main>
+    <div class="container">
+      <header>
+        <h1>Daily Affirmations Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            class="subject-search"
+            type="text"
+            placeholder="Type subject for affirmation"
+            required
+            autocomplete="off"
+            autofocus
+          />
+          <input class="search-box" type="submit" />
+        </form>
+        <div class="quote">Today will be a productive day :]</div>
+      </main>
+    </div>
     <footer>
       Ai project coded by Xianna Colon and
       <a
@@ -37,6 +40,7 @@
         netlify</a
       >
     </footer>
+
     <script src="script.js"></script>
   </body>
 </html>
