@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <title>QuotesForYou</title>
   </head>
   <body>
@@ -15,9 +16,10 @@
       <main>
         <form id="quote-form">
           <input
-            class="subject-search"
+            class="quoteSearch"
+            id="user-search"
             type="text"
-            placeholder="Type subject for affirmation"
+            placeholder="Write the subject you want an affirmation for (E.g. Starting a new job) "
             required
             autocomplete="off"
             autofocus
