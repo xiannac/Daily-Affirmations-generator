@@ -35,7 +35,7 @@ a:hover {
   color: #b49dac;
   transition: ease-in-out 200ms;
 }
-.subject-search {
+.quoteSearch {
   background-color: #a6a083;
   color: #395c45;
   border: none;
@@ -48,7 +48,7 @@ a:hover {
   line-height: 13px;
   margin-left: 24px;
 }
-.subject-search::placeholder {
+.quoteSearch::placeholder {
   color: #464b44;
 }
 .search-box {
@@ -64,8 +64,8 @@ a:hover {
 }
 .quote {
   color: #e0eac4;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   font-size: 18px;
   background-color: rgb(53, 69, 58, 0.5);
   border-bottom-left-radius: 10px;
