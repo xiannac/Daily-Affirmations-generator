@@ -40,7 +40,7 @@ a:hover {
   color: #395c45;
   border: none;
   width: 80%;
-  border-radius: 10px;
+  border-radius: 50px;
   border-bottom-right-radius: 0px;
   border-top-right-radius: 0px;
   padding: 8px;
@@ -64,8 +64,8 @@ a:hover {
 }
 .quote {
   color: #e0eac4;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-size: 18px;
   background-color: rgb(53, 69, 58, 0.5);
   border-bottom-left-radius: 10px;
